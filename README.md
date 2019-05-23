@@ -7,7 +7,7 @@
   >2. Compare&pull request->Create pull request->Merge pull request->Commit Merge.    
   >3. Delete Branch.  
 ## Clone or download
-  >To download the project.:finally:
+  >To download the project.:ok: 
   
 
 
