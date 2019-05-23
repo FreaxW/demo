@@ -7,7 +7,9 @@
   >2. Compare&pull request->Create pull request->Merge pull request->Commit Merge.    
   >3. Delete Branch.  
 ## Clone or download
-  >To download the project.:ok: 
+  >To download the project.:ok:  
+## Explore  
+  >To fork others project.:airplane::airplane::airplane:
   
 
 
