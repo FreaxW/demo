@@ -5,6 +5,10 @@
 ## new branch & compare pull & merge
   >1. New branch and do something,finally commit.    
   >2. Compare&pull request->Create pull request->Merge pull request->Commit Merge.    
-  >3. Delete Branch.    
+  >3. Delete Branch.  
+## Clone or download
+  >To download the project.
+  
+
 
   
