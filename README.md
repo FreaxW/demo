@@ -9,7 +9,7 @@
 ## Clone or download
   >To download the project.:ok:  
 ## Explore  
-  >To Browse other people's project and fork.:airplane::airplane::airplane:
+  >To browse other people's project and fork.:airplane::airplane::airplane:
   
 
 
