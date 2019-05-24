@@ -9,7 +9,9 @@
 ## Clone or download
   >To download the project.:ok:  
 ## Explore  
-  >To browse other people's project and fork.:airplane::airplane::airplane:
+  >To browse other people's project and fork.:airplane::airplane::airplane:  
+## To mkdir in github
+  >Create new file, Enter a '/' after the file name and press Enter.
   
 
 
