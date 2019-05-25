@@ -70,9 +70,9 @@
 >git checkout commit ID
 
 ## 重命名本地分支，并提交到远程 
->1.重命名 git branch -m oldBranchName newBranchName  
->2.删除远程分支：git push origin :oldBranchName   
->3.将重命名过的分支提交：git push origin newBranchName  
+>1.重命名 git branch -m oldBranchName newBranchName    
+>2.删除远程分支：git push origin :oldBranchName     
+>3.将重命名过的分支提交：git push origin newBranchName    
 
 
 ## 说明
