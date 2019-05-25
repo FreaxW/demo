@@ -9,6 +9,8 @@
 >收藏
 >### Fork
 >复制克隆至自己仓库(fork)，标识forked from
+>### issues
+>发现bug
 >### pull request
 >发起请求,等待别人确认是否合并merge
 
