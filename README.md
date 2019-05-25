@@ -25,9 +25,9 @@
 >还需Verify your email
 
 ## 基本信息设置
->git config --global user.name 'test'
->git config --global user.email test@qq.com
->git config -list
+>git config --global user.name 'test'  
+>git config --global user.email test@qq.com  
+>git config --list  
 ## 初始化
 >git init
 
