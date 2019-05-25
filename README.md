@@ -1,4 +1,8 @@
-# Git教程  
+# Git教程 
+
+## 基本概念
+>仓库(repository)用来存放项目
+>收藏(star)
 
 >## 创建一个本地仓库 
 >git init
