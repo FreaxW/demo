@@ -9,11 +9,18 @@
 >收藏
 >### Fork
 >复制克隆至自己仓库(fork)，标识forked from
->### issues
+>### Issues
 >发现bug
->### pull request
+>### Pull request
 >发起请求,等待别人确认是否合并merge
 
+## 页面
+>1.github主页
+>2.仓库主页
+>3.个人主页
+
+## 注册github
+[github](https://github.com)
 
 >## 创建一个本地仓库 
 >git init
