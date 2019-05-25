@@ -15,9 +15,9 @@
 >发起请求,等待别人确认是否合并merge
 
 ## 页面
->1.github主页
->2.仓库主页
->3.个人主页
+>1.github主页  
+>2.仓库主页  
+>3.个人主页  
 
 ## 注册github
 >[github](https://github.com)  
