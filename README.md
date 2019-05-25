@@ -25,18 +25,18 @@
 >还需Verify your email
 
 ## 基本信息设置
->git config --global user.name 'test'  
->git config --global user.email test@qq.com  
->git config --list  
+>`git config --global user.name 'test'`  
+>`git config --global user.email test@qq.com`  
+>`git config --list`  
 ## 初始化
->git init
+>`git init`
 
 ## 本地克隆远程仓库
->cd demo   
+>`cd demo`   
 [MyGithub](https://github.com/FreaxW/demo.git)   
->git clone  https://github.com/FreaxW/demo.git  
->查看目录情况 ls -a
->cd .git
+>`git clone  https://github.com/FreaxW/demo.git`  
+>查看目录情况 `ls -a`
+>`cd .git`
 
 
 
@@ -44,82 +44,83 @@
 ## 创建分支
 
 ### 创建分支不切换  
->git branch newbranch
+>`git branch newbranch`
 
 ### 创建分支并切换至该分支
->git checkout -b feature  
+>`git checkout -b branchname`  
 
 ## 切换分支  
->git checkout branchname
+>`git checkout branchname`
 
 ## 提交到暂存区 
->git add E:/Projects/Python/vs/demo/README.md 
+>`git add E:/Projects/Python/vs/demo/README.md` 
 >只有文件变化都需再次执行它
 
 ## 查看状态
->git status
+>`git status`
 
->## 提交     
->git commit -m "代码提交信息"
+## 提交     
+>`git commit -m "代码提交信息"`
 
->## 合并  
->提交之前必须切换回主分支git checkout master   
->git merge feature
+## 合并    
+>`git merge branchname`
 
->##  查看分支  
->git branch
+##  查看分支  
+>`git branch`
 >### 查看分支情况
->git branch-a
+>`git branch-a`
 >### 查看远程分支
->git branch -r 
+>`git branch -r` 
 
->## 删除分支
+## 删除分支
 >必须在删除分支的上一个分支  
->git branch -d test
+>`git branch -d test`
 >### 远程删除分支
->git push origin --delete <分支名>
+>`git push origin --delete <分支名>`
 
->## 远程更新至本地
+## 远程更新至本地
 >### 从远程获取最新到本地，不自动merge  
->git fetch
+>`git fetch`
 >### 从远程获取最新版本并merge到本地
->git pull
+>`git pull`
 
->## 回退命令
+## 回退命令
 >### 回退到上个版本
->git reset --hard HEAD 
+>`git reset --hard HEAD` 
 >### 回退到前3次提交之前
->git reset --hard HEAD~3
+>`git reset --hard HEAD~3`
 >### 回退到n次提交之前
->git reset --hard commit_id
+>`git reset --hard commit_id`
 >### 退到/进到 指定commit的sha码 
->git checkout commit ID
+>`git checkout commit ID`
 
 ## 重命名本地分支，并提交到远程 
->1.重命名 git branch -m oldBranchName newBranchName    
->2.删除远程分支：git push origin :oldBranchName     
->3.将重命名过的分支提交：git push origin newBranchName    
+>1.重命名 `git branch -m oldBranchName newBranchName`    
+>2.删除远程分支：`git push origin :oldBranchName`     
+>3.将重命名过的分支提交：`git push origin newBranchName`    
 
 
 ## 说明
->### 一
->将远程仓库git cloue    
+>### 一 分支提交，需远程master compare pull后确认是否合并
+>将远程仓库`git clone    
 >这是master作为本地仓库的主分支  
->master创建一个分支test,并切换到该分支 git branch -b test  
->test do some changes 
->git commit -m 'message'  
->git push --set-upstream origin test  
->when error occured  git pull --rebase origin master  then git push  
->git merge test   
+>master创建一个分支test,并切换到该分支 `git branch -b test`  
+>test do some changes
+>`git add changes`
+>`git commit -m 'message'`  
+>`git push --set-upstream origin test`  
+>when error occured  `git pull --rebase origin maste`r  then `git push`  
+>`git merge test`   
 >最后远程仓库得到一个test的分支，然后compare pull,然后merge  
 
 >### 二
 >将远程仓库git cloue    
 >这是master作为本地仓库的主分支  
->master do some changes  
->git commit -m 'message'  
->git push --set-upstream origin master   
->git merge master   
+>master do some changes
+>`git add changes`
+>`git commit -m 'message' ` 
+>`git push`
+ 
 
 ## github搭建个人网站
 >### 访问
