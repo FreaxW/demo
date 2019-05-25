@@ -21,6 +21,7 @@
 
 ## 注册github
 >[github](https://github.com)
+>vpn Shadowsocks
 
 ## 创建一个本地仓库 
 >git init
