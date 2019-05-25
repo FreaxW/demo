@@ -126,6 +126,13 @@
 >https:/username.github.io  
 >### 搭建步骤  
 >1.创建个人站点->新建仓库，仓库名必须是username.github.io  
->2.在仓库下创建index.html  
+>2.在仓库下创建index.html,仓库下只可以是html文件，静态页面  
+
+## github搭建项目网站
+>### 访问
+>https:/username.github.io/repositoryname  
+>### 搭建步骤  
+>1.->仓库主页->settings->Github Pages    
+
 
 
