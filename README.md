@@ -24,18 +24,21 @@
 >vpn Shadowsocks  
 >还需Verify your email
 
-## 创建一个本地仓库 
+## 基本信息设置
+>git config --global user.name 'test'
+>git config --global user.email test@qq.com
+>git config -list
+## 初始化
 >git init
 
->## 本地克隆远程仓库
+## 本地克隆远程仓库
 >cd demo   
 [MyGithub](https://github.com/FreaxW/demo.git)   
 >git clone  https://github.com/FreaxW/demo.git
 >查看目录情况 ls -a
 >cd .git
 
-## 查看状态
->git status
+
 
 
 
@@ -50,12 +53,11 @@
 >## 切换分支  
 >git checkout branchname
 
->## 添加  
+## 添加  
 >git add E:/Projects/Python/vs/demo/README.md  
 
-## 提交需要配置用户名和邮箱地址
->git config --global user.name 'runoob'
->git config --global user.email test@runoob.com
+## 查看状态
+>git status
 
 >## 提交     
 >git commit -m "代码提交信息"
