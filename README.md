@@ -7,7 +7,7 @@
 >收藏.
 >### fork
 >复制克隆至自己仓库(fork)，标识forked from.  
->pull request
+>### pull request
 >发起请求,等待别人确认是否合并merge
 
 
