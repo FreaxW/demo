@@ -22,7 +22,7 @@
 ## 注册github
 >[github](https://github.com)
 
->## 创建一个本地仓库 
+## 创建一个本地仓库 
 >git init
 
 >## 本地克隆远程仓库
