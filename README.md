@@ -41,20 +41,20 @@
 
 
 
+## 创建分支
 
->## 创建分支
-
->### 创建分支不切换  
+### 创建分支不切换  
 >git branch newbranch
 
->### 创建分支并切换至该分支
+### 创建分支并切换至该分支
 >git checkout -b feature  
 
->## 切换分支  
+## 切换分支  
 >git checkout branchname
 
-## 添加  
->git add E:/Projects/Python/vs/demo/README.md  
+## 提交到暂存区 
+>git add E:/Projects/Python/vs/demo/README.md 
+>只有文件变化都需再次执行它
 
 ## 查看状态
 >git status
