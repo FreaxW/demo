@@ -108,7 +108,8 @@
 >master创建一个分支test,并切换到该分支 git branch -b test  
 >test do some changes 
 >git commit -m 'message'  
->git push --set-upstream origin test   
+>git push --set-upstream origin test
+>when error occured  git pull --rebase origin master  then git push
 >git merge test   
 >最后远程仓库得到一个test的分支，然后compare pull,然后merge  
 
