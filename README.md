@@ -1,11 +1,13 @@
 # Git教程 
 
 ## 基本概念
->### repository
->仓库，用来存放项目  
->### star
+>### Repository
+>仓库，用来存放项目 
+>### Watch
+>关注，如果有更新会通知
+>### Star
 >收藏
->### fork
+>### Fork
 >复制克隆至自己仓库(fork)，标识forked from
 >### pull request
 >发起请求,等待别人确认是否合并merge
