@@ -2,11 +2,11 @@
 
 ## 基本概念
 >### repository
->仓库，用来存放项目.    
+>仓库，用来存放项目  
 >### star
->收藏.
+>收藏
 >### fork
->复制克隆至自己仓库(fork)，标识forked from.  
+>复制克隆至自己仓库(fork)，标识forked from
 >### pull request
 >发起请求,等待别人确认是否合并merge
 
