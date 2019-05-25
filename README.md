@@ -20,8 +20,9 @@
 >3.个人主页
 
 ## 注册github
->[github](https://github.com)
->vpn Shadowsocks
+>[github](https://github.com)  
+>vpn Shadowsocks  
+>还需验证邮箱
 
 ## 创建一个本地仓库 
 >git init
