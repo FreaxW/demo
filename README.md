@@ -77,19 +77,19 @@
 
 ## 说明
 >### 一
->将远程仓库git cloue  
->这是master作为本地仓库的主分支
->master创建一个分支test,并切换到该分支 git branch -b test
->test do some changes
->git commit -m 'message'
->git push --set-upstream origin test 
->git merge test 
->最后远程仓库得到一个test的分支，然后compare pull,然后merge
+>将远程仓库git cloue    
+>这是master作为本地仓库的主分支  
+>master创建一个分支test,并切换到该分支 git branch -b test  
+>test do some changes 
+>git commit -m 'message'  
+>git push --set-upstream origin test   
+>git merge test   
+>最后远程仓库得到一个test的分支，然后compare pull,然后merge  
 
 >### 二
->将远程仓库git cloue  
->这是master作为本地仓库的主分支
->master do some changes
->git commit -m 'message'
->git push --set-upstream origin master 
->git merge master 
+>将远程仓库git cloue    
+>这是master作为本地仓库的主分支  
+>master do some changes  
+>git commit -m 'message'  
+>git push --set-upstream origin master   
+>git merge master   
