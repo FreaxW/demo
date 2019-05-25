@@ -133,7 +133,9 @@
 >https:/username.github.io/repositoryname  
 >### 搭建步骤  
 >1.->仓库主页->settings->Github Pages......  
->2.成功后创建一个gs-pages的分支，里面有index.html，也可以README.md来做网站首页，毕竟md可以转换成html
+>2.成功后创建一个gs-pages的分支，里面有index.html，也可以README.md来做网站首页，毕竟md可以转换成html  
+>[参考网址](https://www.jianshu.com/p/2af3c1c73d8d)    
+
 
 
 
