@@ -20,7 +20,7 @@
 >3.个人主页
 
 ## 注册github
-[github](https://github.com)
+>[github](https://github.com)
 
 >## 创建一个本地仓库 
 >git init
