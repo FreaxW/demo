@@ -21,7 +21,7 @@
 :   表示1，5，15分钟的负载情况  
 *   PID
 :   进程标识，用来操作该进程,有些有多个标识，使用`killall 服务名`关闭   
->`pidofc sshd`
+>`pidof sshd`
 :   查看sshd的PID   
 >`systemctl status sshd`
 :   查看sshd状态  
