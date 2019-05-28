@@ -29,7 +29,7 @@
 :   表示1，5，15分钟的负载情况  
 *   PID
 :   进程标识，用来操作该进程,有些有多个标识，使用`killall 服务名`关闭   
->`pidofc sshd`
+>`pidof sshd`
 :   查看sshd的PID   
 >`systemctl status sshd`
 :   查看sshd状态  
@@ -41,7 +41,7 @@
 :   网卡信息(Name,IP,MAC,RX,TX)查看，如果没有该命令`apt install net-tools`  
 >`uname -a`
 :   查看内核信息   
->`update`
+>`uptime`
 :   查看负载信息  
 >`free/free -h`
 :   查看内存信息  
@@ -114,10 +114,10 @@
     
 *   `grep 关键字 文件`
 :   比配文件中有包含关键字的内容
-*   `find / -name filename`
-:   找到当前目录下文件名为filename的文件  
-*   `find / -path 忽略目录 -prune -name filename`
-:   找到当前目录下忽略某目录中文件名为filename的文件
+*   `find /etc -name filename`
+:   找到etc目录下文件名为filename的文件  
+*   `find /etc -path 忽略目录 -prune -name filename`
+:   找到etc目录下忽略某目录中文件名为filename的文件
 
     -name	匹配名称  
     -perm	匹配权限（mode为完全匹配，-mode为包含即可）  
