@@ -164,6 +164,107 @@
     echo `uname -a`:   执行命令  
 ```
 
+## 环境变量
+*   PATH
+*   HOME
+*   SHELL
+:   终端是什么
+*   MAIL
+:   邮件位置
+*   LANG
+:   系统语言  
+*   RANDOM
+:   随机数
+*   PS1
+:   Bash解释器的提示符
+*   EDITOR
+:   用户默认的文本编辑器
+*   `type command`
+:   查看变量类型，内部外部
+*   `alias/unalias`
+:   别名
+*   `MYVAR=/home/freax`
+:   变量赋值 `cd $MYVAR`
+*   `export MYVAR`
+:   设为全局变量，允许其他用户使用
+
+
+## 编辑器vi/vim
+>区别
+:   vim有高亮，是vi的improve  
+>常用命令
+:   a i o esc :  o表示下一行
+>模式
+:   输入模式(esc)<->(a i o)命令模式(esc)<->(:)末行模式  
+*   命令模式 
+    *   dd	删除（剪切）光标所在整行  
+    *   5dd	删除（剪切）从光标处开始的5行  
+    *   yy	复制光标所在整行  
+    *   5yy	复制从光标处开始的5行  
+    *   n	显示搜索命令定位到的下一个字符串  
+    *   N	显示搜索命令定位到的上一个字符串  
+    *   u	撤销上一步的操作  
+    *   p	将之前删除（dd）或复制（yy）过的数据粘贴到光标后面  
+*   末行模式
+    *   w	保存
+    *   :q	退出
+    *   :q!	强制退出（放弃对文档的修改内容）
+    *   :wq!	强制保存退出
+    *   :set nu	显示行号
+    *   :set nonu	不显示行号
+    *   :命令	执行该命令
+    *   :整数	跳转到该行
+    *   :s/one/two	将当前光标所在行的第一个one替换成two
+    *   :s/one/two/g	将当前光标所在行的所有one替换成two
+    *   :%s/one/two/g	将全文中的所有one替换成two
+    *   ?字符串	在文本中从下至上搜索该字符串
+    *   /字符串	在文本中从上至下搜索该字符串
+    
+## shell脚本
+*   #!/bin/bash
+:   指定编译器地址
+*   接收参数
+    *   $0
+    :   文件名
+    *   $#
+    :   参数个数
+    *   $*
+    :   参数
+    *   $1
+    :   第一个参数
+    *   $?
+    :   返回0.1,判断一条命令是否成功0,1失败`[ -d /etc ] && echo "OK"`
+    
+*   处理参数 bash demo.sh a b c d e
+
+*   逻辑&& ||
+    *   expr1 && expr2
+    :  expr1 True才会执行expr2
+    *   expr1 || expr2
+    :  expr1 False才会执行expr2 
+*   比较
+    *   eq
+    :   判断相等==
+    *   -ge
+    :   >=
+    *   -gt
+    :   >
+    *   -le
+    :   小于
+    
+*   实例
+    *   查看内存
+    >   FreeMem=`free -m | grep Mem: | awk '{print $4}'`  
+    >   [ $FreeMem -lt 1024 ] && echo "Insufficient Memory"
+    *   测试变量是否是空白值
+    >   [ -z $LANG ]
+    *   判断是目录
+    >   [ -d /etc ]
+    *   判断是文件
+    >   [ -f /home/freax/demo.sh ]
+
+
+    
 
      
 
