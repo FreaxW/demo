@@ -1,3 +1,11 @@
+## linux终端快捷键
+*   Ctrl+L
+:   清空
+*   Ctrl+C
+:   中断
+*   q
+:   浏览时退出，比如`more` `man` `info`
+
 ## linux系统进程五个状态
 >R(running)
 :   正在运行  
