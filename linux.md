@@ -161,7 +161,7 @@
 :   整体转义
   
 ```
-    echo `uname -a`:   执行命令  
+    echo `uname -a`:   执行命令，也可以echo $(uname -a)  
 ```
 
 ## 环境变量
@@ -262,7 +262,56 @@
     >   [ -d /etc ]
     *   判断是文件
     >   [ -f /home/freax/demo.sh ]
+    *   判断文件是否存在
+    >   [ -e /home/freax/demo.sh ]
+    
+## 条件测试
+```
+if expr
+    then
+        do something
+    elif
+        do something
+    esle
+        do something
+ fi
+ ```
+*   `read -p "Enter:" GRADE && echo $GRADE`
+:   输入
 
+## 循环
+```
+for line in `cat demo.sh`
+    do
+        do something
+    done
+while expr
+    do
+    done
+ ```
+
+## 计划任务
+*   `at`
+:   单次任务，比如`at 17:12` then `rebot`,最好Ctrl+D保存
+    *   at -l
+    :查询任务个数
+    *   at -c index
+    :   查询任务详情
+    *   atrm index
+    :   删除任务
+*   `crontab -e`
+:   进入配置周期任务编辑，分、时、日、月、星期、命令
+*   `crontab -l`
+:   查看任务
+    *   例子   
+        *   `0 0 * 5 3 /usr/sbin/reboot` 
+         :   表示每年5的五月份的星期三的凌晨重启  
+        *   `0 0 * 5 1，3，5 /usr/sbin/reboot` 
+        :   表示每年5的五月份的星期一、三、五的凌晨重启
+        *   `0 0 * 5 1-5 /usr/sbin/reboot` 
+        :   表示每年5的五月份的星期一至星期五的凌晨重启
+        *   `0 0 /2 * * /usr/sbin/reboot` 
+        :   表示每隔2天的凌晨重启
 
     
 
