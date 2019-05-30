@@ -388,7 +388,7 @@ while expr
     :   进入编辑配置文件，给普通用户赋权
     
 ## linux目录结构
-![avatar](./linux.png)
+![avatar](./Linux.png)
 *   /boot	开机所需文件—内核、开机菜单以及所需配置文件等
 *   /dev	以文件形式存放任何设备与接口
 *   /etc	配置文件
